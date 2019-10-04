@@ -13,34 +13,10 @@ public class MainController{
 //          return "index";
 //    }
 
-    @RequestMapping(value="/about")
-    public String showStartPage1()
+    @RequestMapping(value = "/test")
+    public String showTestPage()
     {
-        return "index";
-    }
-
-    @RequestMapping(value="/blog")
-    public String showStartPage2()
-    {
-        return "blog";
-    }
-
-    @RequestMapping(value="/blog_post")
-    public String showStartPage3()
-    {
-        return "blog_post";
-    }
-
-    @RequestMapping(value="/contact")
-    public String showStartPage4()
-    {
-        return "contact";
-    }
-
-    @RequestMapping(value="/portfolio")
-    public String showStartPage5()
-    {
-        return "portfolio";
+        return "test";
     }
 
 
